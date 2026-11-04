@@ -1,39 +1,156 @@
-{
-  "products": [
-    { "id": 1, "name": "T-shirt Coton Basique", "category": "Vêtements", "price": 79, "image": "https://picsum.photos/seed/auchan-1/400/400", "sizes": ["S", "M", "L", "XL"], "description": "T-shirt 100% coton, coupe classique." },
-    { "id": 2, "name": "Jean Slim Homme", "category": "Vêtements", "price": 249, "image": "https://picsum.photos/seed/auchan-2/400/400", "sizes": ["S", "M", "L", "XL"], "description": "Jean stretch confortable, coupe slim." },
-    { "id": 3, "name": "Robe d'Été Fleurie", "category": "Vêtements", "price": 199, "image": "https://picsum.photos/seed/auchan-3/400/400", "sizes": ["S", "M", "L"], "description": "Robe légère à motifs floraux." },
-    { "id": 4, "name": "Sweat à Capuche", "category": "Vêtements", "price": 189, "image": "https://picsum.photos/seed/auchan-4/400/400", "sizes": ["M", "L", "XL"], "description": "Sweat molletonné avec poche kangourou." },
-    { "id": 5, "name": "Chemise en Lin", "category": "Vêtements", "price": 169, "image": "https://picsum.photos/seed/auchan-5/400/400", "sizes": ["S", "M", "L", "XL"], "description": "Chemise respirante pour l'été." },
-    { "id": 6, "name": "Veste Légère Zippée", "category": "Vêtements", "price": 299, "image": "https://picsum.photos/seed/auchan-6/400/400", "sizes": ["M", "L", "XL"], "description": "Veste coupe-vent mi-saison." },
-    { "id": 7, "name": "Pantalon Chino", "category": "Vêtements", "price": 219, "image": "https://picsum.photos/seed/auchan-7/400/400", "sizes": ["S", "M", "L", "XL"], "description": "Chino en coton, coupe droite." },
-    { "id": 8, "name": "Pull en Maille", "category": "Vêtements", "price": 159, "image": "https://picsum.photos/seed/auchan-8/400/400", "sizes": ["S", "M", "L"], "description": "Pull chaud et doux pour l'hiver." },
-    { "id": 9, "name": "Jupe Plissée", "category": "Vêtements", "price": 129, "image": "https://picsum.photos/seed/auchan-9/400/400", "sizes": ["S", "M", "L"], "description": "Jupe midi plissée élégante." },
-    { "id": 10, "name": "Polo Sport Homme", "category": "Vêtements", "price": 109, "image": "https://picsum.photos/seed/auchan-10/400/400", "sizes": ["M", "L", "XL"], "description": "Polo respirant à séchage rapide." },
-
-    { "id": 11, "name": "Smartphone 128 Go", "category": "Électronique", "price": 2499, "image": "https://picsum.photos/seed/auchan-11/400/400", "sizes": [], "description": "Écran 6.5\", double caméra, 5G." },
-    { "id": 12, "name": "Écouteurs Bluetooth", "category": "Électronique", "price": 349, "image": "https://picsum.photos/seed/auchan-12/400/400", "sizes": [], "description": "Sans fil, autonomie 20 h." },
-    { "id": 13, "name": "Tablette 10 pouces", "category": "Électronique", "price": 1799, "image": "https://picsum.photos/seed/auchan-13/400/400", "sizes": [], "description": "Tablette 64 Go avec écran HD." },
-    { "id": 14, "name": "Enceinte Portable", "category": "Électronique", "price": 399, "image": "https://picsum.photos/seed/auchan-14/400/400", "sizes": [], "description": "Enceinte étanche, son 360°." },
-    { "id": 15, "name": "Montre Connectée", "category": "Électronique", "price": 899, "image": "https://picsum.photos/seed/auchan-15/400/400", "sizes": [], "description": "Suivi d'activité et notifications." },
-    { "id": 16, "name": "Chargeur Rapide 30W", "category": "Électronique", "price": 119, "image": "https://picsum.photos/seed/auchan-16/400/400", "sizes": [], "description": "Chargeur USB-C charge rapide." },
-    { "id": 17, "name": "Casque Gaming", "category": "Électronique", "price": 549, "image": "https://picsum.photos/seed/auchan-17/400/400", "sizes": [], "description": "Casque avec micro antibruit." },
-    { "id": 18, "name": "Clavier Sans Fil", "category": "Électronique", "price": 199, "image": "https://picsum.photos/seed/auchan-18/400/400", "sizes": [], "description": "Clavier compact, batterie longue durée." },
-
-    { "id": 19, "name": "Set de Casseroles 5 pièces", "category": "Maison", "price": 599, "image": "https://picsum.photos/seed/auchan-19/400/400", "sizes": [], "description": "Antiadhésives, tous feux dont induction." },
-    { "id": 20, "name": "Lampe de Bureau LED", "category": "Maison", "price": 149, "image": "https://picsum.photos/seed/auchan-20/400/400", "sizes": [], "description": "Luminosité réglable, bras flexible." },
-    { "id": 21, "name": "Couette Double 220x240", "category": "Maison", "price": 399, "image": "https://picsum.photos/seed/auchan-21/400/400", "sizes": [], "description": "Garnissage moelleux, toutes saisons." },
-    { "id": 22, "name": "Aspirateur Sans Sac", "category": "Maison", "price": 899, "image": "https://picsum.photos/seed/auchan-22/400/400", "sizes": [], "description": "Puissant et facile à vider." },
-    { "id": 23, "name": "Service de Table 18 pièces", "category": "Maison", "price": 459, "image": "https://picsum.photos/seed/auchan-23/400/400", "sizes": [], "description": "Assiettes et bols en porcelaine." },
-    { "id": 24, "name": "Tapis Salon 160x230", "category": "Maison", "price": 699, "image": "https://picsum.photos/seed/auchan-24/400/400", "sizes": [], "description": "Tapis doux au design moderne." },
-    { "id": 25, "name": "Bouilloire Électrique 1.7 L", "category": "Maison", "price": 179, "image": "https://picsum.photos/seed/auchan-25/400/400", "sizes": [], "description": "Arrêt automatique, ébullition rapide." },
-
-    { "id": 26, "name": "Baskets de Running", "category": "Sport", "price": 449, "image": "https://picsum.photos/seed/auchan-26/400/400", "sizes": ["M", "L", "XL"], "description": "Semelle amortissante et légère." },
-    { "id": 27, "name": "Tapis de Yoga", "category": "Sport", "price": 129, "image": "https://picsum.photos/seed/auchan-27/400/400", "sizes": [], "description": "Antidérapant, épaisseur 6 mm." },
-    { "id": 28, "name": "Haltères 2 x 5 kg", "category": "Sport", "price": 219, "image": "https://picsum.photos/seed/auchan-28/400/400", "sizes": [], "description": "Paire d'haltères revêtement néoprène." },
-    { "id": 29, "name": "Ballon de Football", "category": "Sport", "price": 99, "image": "https://picsum.photos/seed/auchan-29/400/400", "sizes": [], "description": "Taille 5, cousu machine." },
-    { "id": 30, "name": "Short de Sport", "category": "Sport", "price": 89, "image": "https://picsum.photos/seed/auchan-30/400/400", "sizes": ["S", "M", "L", "XL"], "description": "Short léger respirant." },
-    { "id": 31, "name": "Sac de Sport 40 L", "category": "Sport", "price": 159, "image": "https://picsum.photos/seed/auchan-31/400/400", "sizes": [], "description": "Compartiment chaussures séparé." },
-    { "id": 32, "name": "Gourde Isotherme 750 ml", "category": "Sport", "price": 79, "image": "https://picsum.photos/seed/auchan-32/400/400", "sizes": [], "description": "Garde au chaud 12 h, au froid 24 h." }
-  ]
-}
+  [
+  {
+    "id": 104,
+    "name": "Smartphone Ultra Premium",
+    "category": "Électronique",
+    "price": 16999,
+    "currency": "MAD",
+    "description": "Smartphone premium avec écran avancé, photo haute résolution et grande capacité.",
+    "image": "https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=1000&q=90",
+    "stock": 8,
+    "rating": 4.7
+  },
+  {
+    "id": 105,
+    "name": "Appareil photo hybride professionnel",
+    "category": "Électronique",
+    "price": 18999,
+    "currency": "MAD",
+    "description": "Appareil photo hybride conçu pour la photographie et la vidéo professionnelles.",
+    "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=1000&q=90",
+    "stock": 3,
+    "rating": 4.9
+  },
+  {
+    "id": 106,
+    "name": "Système audio home cinéma",
+    "category": "Électronique",
+    "price": 8999,
+    "currency": "MAD",
+    "description": "Ensemble audio immersif pour films, musique et divertissement à domicile.",
+    "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?auto=format&fit=crop&w=1000&q=90",
+    "stock": 7,
+    "rating": 4.6
+  },
+  {
+    "id": 107,
+    "name": "Réfrigérateur américain",
+    "category": "Maison",
+    "price": 14999,
+    "currency": "MAD",
+    "description": "Réfrigérateur grande capacité avec finition moderne et compartiments spacieux.",
+    "image": "https://images.unsplash.com/photo-1571175443880-49e1d25b2bc5?auto=format&fit=crop&w=1000&q=90",
+    "stock": 4,
+    "rating": 4.7
+  },
+  {
+    "id": 108,
+    "name": "Lave-linge intelligent",
+    "category": "Maison",
+    "price": 7999,
+    "currency": "MAD",
+    "description": "Lave-linge moderne avec programmes variés et grande capacité.",
+    "image": "https://images.unsplash.com/photo-1626806787461-102c1bfaaea1?auto=format&fit=crop&w=1000&q=90",
+    "stock": 9,
+    "rating": 4.5
+  },
+  {
+    "id": 109,
+    "name": "Machine espresso automatique",
+    "category": "Maison",
+    "price": 9999,
+    "currency": "MAD",
+    "description": "Machine à café automatique pour préparer différentes boissons à la maison.",
+    "image": "https://images.unsplash.com/photo-1524350876685-274059332603?auto=format&fit=crop&w=1000&q=90",
+    "stock": 6,
+    "rating": 4.7
+  },
+  {
+    "id": 110,
+    "name": "Canapé design 3 places",
+    "category": "Maison",
+    "price": 11999,
+    "currency": "MAD",
+    "description": "Canapé contemporain trois places avec assise confortable.",
+    "image": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?auto=format&fit=crop&w=1000&q=90",
+    "stock": 2,
+    "rating": 4.6
+  },
+  {
+    "id": 111,
+    "name": "Table à manger en bois massif",
+    "category": "Maison",
+    "price": 8499,
+    "currency": "MAD",
+    "description": "Table de salle à manger au style naturel pour plusieurs convives.",
+    "image": "https://images.unsplash.com/photo-1617806118233-18e1de247200?auto=format&fit=crop&w=1000&q=90",
+    "stock": 3,
+    "rating": 4.5
+  },
+  {
+    "id": 112,
+    "name": "Vélo électrique urbain",
+    "category": "Sport",
+    "price": 13999,
+    "currency": "MAD",
+    "description": "Vélo électrique pour les déplacements urbains et les loisirs.",
+    "image": "https://images.unsplash.com/photo-1571068316344-75bc76f77890?auto=format&fit=crop&w=1000&q=90",
+    "stock": 5,
+    "rating": 4.6
+  },
+  {
+    "id": 113,
+    "name": "Tapis de course connecté",
+    "category": "Sport",
+    "price": 10999,
+    "currency": "MAD",
+    "description": "Équipement de fitness domestique avec programmes d'entraînement.",
+    "image": "https://images.unsplash.com/photo-1576678927484-cc907957088c?auto=format&fit=crop&w=1000&q=90",
+    "stock": 4,
+    "rating": 4.5
+  },
+  {
+    "id": 114,
+    "name": "Montre connectée premium",
+    "category": "Accessoires",
+    "price": 5499,
+    "currency": "MAD",
+    "description": "Montre connectée avec suivi d'activité et écran haute qualité.",
+    "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1000&q=90",
+    "stock": 10,
+    "rating": 4.6
+  },
+  {
+    "id": 115,
+    "name": "Sac de voyage en cuir",
+    "category": "Accessoires",
+    "price": 3299,
+    "currency": "MAD",
+    "description": "Sac de voyage élégant avec finition en cuir et rangement pratique.",
+    "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1000&q=90",
+    "stock": 8,
+    "rating": 4.4
+  },
+  {
+    "id": 116,
+    "name": "Veste en cuir premium",
+    "category": "Vêtements",
+    "price": 4299,
+    "currency": "MAD",
+    "description": "Veste au style classique avec finition soignée.",
+    "image": "https://images.unsplash.com/photo-1520975958225-1c6f3c5f8b7b?auto=format&fit=crop&w=1000&q=90",
+    "stock": 6,
+    "rating": 4.5
+  },
+  {
+    "id": 117,
+    "name": "Sneakers édition premium",
+    "category": "Vêtements",
+    "price": 2499,
+    "currency": "MAD",
+    "description": "Sneakers au design soigné pour un usage quotidien.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1000&q=90",
+    "stock": 11,
+    "rating": 4.7
+  }
+]
